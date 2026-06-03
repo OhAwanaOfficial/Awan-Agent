@@ -1,0 +1,78 @@
+# ══════════════════════════════════════════════════════════════
+#  AWAN AGENT — robots.txt
+#
+#  BEFORE GOING LIVE:
+#  Replace https://YOURDOMAIN.com with your actual domain.
+#
+#  GitHub Pages subdomain:  https://USERNAME.github.io/REPO-NAME
+#  Custom domain (better):  https://awanagent.com
+#
+#  This file tells search engine crawlers which pages to
+#  crawl and where to find the sitemap.
+# ══════════════════════════════════════════════════════════════
+
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Block nothing — every page on this site should be indexed.
+# If you add a /admin or /drafts folder later, disallow it here:
+# Disallow: /admin/
+# Disallow: /drafts/
+
+
+# ── Major search engines (explicit allow for safety) ──────────
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+
+# ── Block AI scrapers that don't respect opt-out ──────────────
+# These crawlers train AI models. They do NOT affect Google ranking.
+# Blocking them protects your content from being used without credit.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+
+# ── Sitemap location ──────────────────────────────────────────
+# Replace YOURDOMAIN.com before submitting to Search Console.
+
+Sitemap: https://YOURDOMAIN.com/sitemap.xml
