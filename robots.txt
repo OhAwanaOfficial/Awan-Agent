@@ -75,4 +75,4 @@ Disallow: /
 # ── Sitemap location ──────────────────────────────────────────
 # Replace YOURDOMAIN.com before submitting to Search Console.
 
-Sitemap: https://YOURDOMAIN.com/sitemap.xml
+Sitemap: https://ohawanaofficial.github.io/sitemap.xml
