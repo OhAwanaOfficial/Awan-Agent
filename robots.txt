@@ -2,7 +2,7 @@
 #  AWAN AGENT — robots.txt
 #
 #  BEFORE GOING LIVE:
-#  Replace https://YOURDOMAIN.com with your actual domain.
+#  Replace https://ohawanaofficial.github.io/Awan-Agent with your actual domain.
 #
 #  GitHub Pages subdomain:  https://USERNAME.github.io/REPO-NAME
 #  Custom domain (better):  https://awanagent.com
@@ -73,6 +73,6 @@ Disallow: /
 
 
 # ── Sitemap location ──────────────────────────────────────────
-# Replace YOURDOMAIN.com before submitting to Search Console.
+# Replace ohawanaofficial.github.io/Awan-Agent before submitting to Search Console.
 
-Sitemap: https://ohawanaofficial.github.io/sitemap.xml
+Sitemap: https://ohawanaofficial.github.io/Awan-Agent/sitemap.xml
